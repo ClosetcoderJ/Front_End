@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scalae=1.0">
+    <title>ex2 실습</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <style>
+        .sans-font{
+            font-family:'Nanum Gothic', sans-serif;
+        }
+        @font-face {
+    font-family: 'NanumSquare_ac'; /*내 웹 폰트의 별칭 지정*/
+    src: url('http://daeeunj2.dothome.co.kr/fonts/NanumSquare_acR.woff2') format('woff2'), /* woff2폰트 파일 다운로드*/
+        url('http://daeeunj2.dothome.co.kr/fonts/NanumSquare_acR.woff') format('woff');/* woff폰트파일 다운로드*/
+    font-weight: normal; /* 폰트의 굵기*/
+    font-style: normal;/*폰트의 스타일*/
+    font-display: swap;/* 이미 적용된 폰트와 이 폰트의 교체(적용)시기*/
+}
+    .my-font{
+        font-family: 'NanumSquare_ac'; /* 웹폰트*/
+    }
+
+    </style>
+</head>
+<body>
+    <p>브라우저 기본 글꼴이 적용된 텍스트</p>
+    <p class="sans-font">돋움체가 적용된 텍스트</p>
+    <p class="my-font">직접 업로드한 웹 폰트가 적용된 텍스트</p>
+</body>
+</html>
