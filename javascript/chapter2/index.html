@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scalae=1.0">
+    <title>index</title>
+</head>
+<body>
+    <script>
+        /* 콘솔 창에 무언가를 보여주는 기능*/
+        //console.log("HTML 페이지 내 삽입");
+        document.write("<p> HTML 페이지 내 삽입 </p>");
+
+        function fact(n) {
+            if (n <=1) return n;
+            return n * fact(n - 1);
+
+        }
+
+        for(var i=1; i<10; i++) {
+        //    console.log(i + "! = " + fact(i));
+            document.write(i + "! = " + fact(i) + "<br>");
+        }
+    </script>
+</body>
+</html>
